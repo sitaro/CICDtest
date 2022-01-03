@@ -1,0 +1,4 @@
+resource "aws_key_pair" "mathops_key" {
+  key_name   = "mathops_key"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDSt74C6YS8CVM/3x4lZzDzoMVbGlQSON0LT7iBgdgyM5SCOZVwZLw2HUpJjFDpM/f0vNdfPjSAsr07RjcQImMmq8UJBuVGfyCWqMMaHvbQPUyYrgHRU8rjDmaLcR6LbWYxRWyxbCtXG9adeiuhPeo4qkItjr6iYl07vRkAQk45s79MLeM7SWT7O26CVZGomAzcTaua8By/ognnsiE80kiDjyCEYrCuJ5f8mKOI7USo7fXJoJiTKqmB9d+B2pOkuMmX2TiS9elyZDfnrzg47opMx68CTk+nDls8tHa/dL96sdT/MdZzTxJo7Ddc/ehUWbCqSlnlEiyJYIjak2wfsC2n mathias@localhost.localdomain"
+}
